@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Bee Travels',
+  tagline: ' Try out the demo below or click on Get Started to learn more',
   url: 'https://bee-travels.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/faviconBee.ico',
   organizationName: 'bee-travels', // Usually your GitHub org/user name.
   projectName: 'bee-travels.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Bee Travels',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Bee-Travels',
         src: 'img/logo.svg',
       },
       items: [
@@ -21,12 +21,12 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+      {
+        href: 'https://github.com/bee-travels',
+        position: 'left',
+        className: 'header-github-link',
+        'aria-label': 'GitHub repository',
+      }
       ],
     },
     footer: {
@@ -49,8 +49,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'IBM Developer',
+              href: 'https://developer.ibm.com',
             },
             {
               label: 'Discord',

@@ -3,12 +3,18 @@ id: node
 title: Designing Microservices with Node.js
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+When designing microservices in Node.js or any other language, [these](/docs/designing) recommendations should be considered.
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+## Package Manager
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+When writing Node.js code, you will most likely be using some packages. Because of this, it is recommended to use a Node package manager. Two commonly known package managers are [npm](https://www.npmjs.com/) and [yarn](https://yarnpkg.com/). With a package manager you can easily run and test your code as well as install dependencies. Bee Travels currently uses yarn.
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+## Communication
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+Web frameworks and RESTful APIs from [this](/docs/designing#communication) communication section play a key part in designing Node.js microservices.
+
+One of the most common web frameworks for Node.js that Bee Travels takes advantage of is [express](http://expressjs.com/). Using express allows you to create RESTful APIs. [Here](https://github.com/bee-travels/bee-travels-node/blob/master/services/destination-v1/src/routes/destinations.js#L25-L47) is the code for the Bee Travels API endpoint from the example in the main communication section. From this code we can see that there are two main components. The first are the comments that use decorators. This code takes advantage of the [OpenAPI Comment Parser](https://developer.ibm.com/technologies/api/blogs/document-apis-with-open-source-openapi-comment-parser/) which helps with documentation of your API endpoint and displays it in your [Swagger](https://swagger.io/). The second main comonent is the actual Node.js express code the defines the `GET` API endpoint for getting destination data for a specified country and city and returns the necessary data in the form of a JSON object. It is also important to note that error handling is also being handled in this code and a different response will be sent if an error occurs.
+
+## Code Consistency
+
+Expanding on [this](/docs/designing#code-consistency) code consistency section, Bee Travels uses [eslint](https://eslint.org/) and [prettier](https://prettier.io/) as linters for code consistency.

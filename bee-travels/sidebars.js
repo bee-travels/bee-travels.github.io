@@ -5,7 +5,11 @@ module.exports = {
     {
       type: 'category',
       label: 'Architecture',
-      items: [ 'about', 'designing',],
+      items: [ 'about', 'designing',{
+        type: 'link',
+        label: 'OpenAPI Comment Parser', 
+        href: 'https://developer.ibm.com/technologies/api/blogs/document-apis-with-open-source-openapi-comment-parser/' 
+      }],
     },
     {
       type: 'category',
@@ -37,6 +41,10 @@ module.exports = {
           type: 'link',
           label: 'Using Openshift on Different Clouds', 
           href: 'https://video.ibm.com/recorded/127936835' 
+        }, {
+          type: 'link',
+          label: 'Deploy Red Hat UBI to OpenShift', 
+          href: 'https://developer.ibm.com/patterns/deploy-to-openshift-4-redhat-universal-base-image/' 
         }],
       },{
         type: 'category',

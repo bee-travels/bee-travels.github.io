@@ -14,5 +14,5 @@ jobs:
       deploy:
         - provider: script
           on:
-            branch: master
+            branch: main
           script: .travis/build-and-push.sh

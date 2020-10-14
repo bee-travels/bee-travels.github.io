@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Bee Travels',
-  tagline: ' Try out the demo below or click on Get Started to learn more',
+  tagline: ' Try out the demo below or click on the button to learn more',
   url: 'https://bee-travels.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -21,9 +21,14 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        {
+          position: 'left',
+          label: 'IBM Developer',
+          href: 'https://developer.ibm.com/?s=microservices',
+        },
       {
         href: 'https://github.com/bee-travels',
-        position: 'left',
+        position: 'right',
         className: 'header-github-link',
         'aria-label': 'GitHub repository',
       }
@@ -36,7 +41,7 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Introduction',
               to: 'docs/',
             }
           ],
@@ -47,29 +52,24 @@ module.exports = {
             {
               label: 'IBM Developer',
               href: 'https://developer.ibm.com',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+            }
           ],
         },
         {
           title: 'More',
           items: [
-            
             {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
+            {
+              label: 'Crowdcast',
+              href: 'https://www.crowdcast.io/ibmdeveloper',
+            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      
     },
   },
   presets: [
@@ -79,8 +79,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

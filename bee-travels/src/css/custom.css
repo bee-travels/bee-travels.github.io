@@ -24,8 +24,16 @@
   padding: 0 var(--ifm-pre-padding);
 }
 .hero__beeTravelsBanner{
-  
- font: 100
+  height: .035px;
+
+}
+
+.hero__beeTravelssubtitle{
+  position:relative; 
+  top:20px;
+}
+.button--bee-travelssecondary{
+color: aliceblue;
 }
 .header-github-link:hover {
   opacity: 0.6;

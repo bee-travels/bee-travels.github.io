@@ -1,6 +1,6 @@
 module.exports = {
 
-  docs: [
+  workshop: [
     'intro',
     {
       type: 'category',

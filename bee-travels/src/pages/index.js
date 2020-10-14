@@ -20,11 +20,11 @@ function Home() {
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__beeTravelsBanner">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className="hero__beeTravelssubtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--outline button--bee-travelssecondary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>

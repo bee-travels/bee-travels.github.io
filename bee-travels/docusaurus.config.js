@@ -22,12 +22,6 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'workshop/',
-          activeBasePath: 'workshop',
-          label: 'Workshops',
-          position: 'left',
-        },
-        {
           position: 'left',
           label: 'IBM Developer',
           href: 'https://developer.ibm.com/?s=microservices',
@@ -87,10 +81,6 @@ module.exports = {
           // Please change this to your repo.
           
         },
-        workshop: {
-          sidebarPath: require.resolve('./workshop_sidebars.js'),
-          // Please change this to your repo.
-           },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

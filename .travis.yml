@@ -15,5 +15,4 @@ jobs:
         - provider: script
           on:
             branch: main
-          script: .travis/build-and-push.sh
-          
+          script: .travis/build-and-push.sh          

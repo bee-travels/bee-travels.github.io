@@ -21,6 +21,12 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        // {
+        //   to: '/workshop/about',
+        //   label: 'Workshop',
+        //   position: 'left',
+        //   activeBaseRegex: `/workshop/`,
+        // },
         {
           position: 'left',
           label: 'IBM Developer',
@@ -78,8 +84,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -87,4 +91,17 @@ module.exports = {
       },
     ],
   ],
+  // plugins: [
+  //   [
+  //     '@docusaurus/plugin-content-docs',
+  //     {
+  //       id: 'workshop',
+  //       path: 'workshop',
+  //       routeBasePath: 'workshop',
+  //       sidebarPath: require.resolve('./workshop_sidebars.js'),
+  //       showLastUpdateAuthor: true,
+  //       showLastUpdateTime: true,
+  //     },
+  //   ],
+  // ]
 };

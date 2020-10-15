@@ -10,9 +10,4 @@ jobs:
   include:
     - stage: build-and-push
       name: Build and Push
-      script: skip
-      deploy:
-        - provider: script
-          on:
-            branch: main
-          script: .travis/build-and-push.sh
+      script: .travis/build-and-push.sh

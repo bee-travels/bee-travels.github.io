@@ -24,10 +24,23 @@ Follow this documentation if you like to use Bee Travels to learn more about :
     - CI/CD
     - Security
 
+## Architecture:
+Bee Travels is a travel booking application that is composed of several mircoservices. Each mircoservice can be run independently, or together to form the full service. Bee Travels can be used to search and book hotels, flights and car rentals for various destinations across the world.
 
+> **Note:** All data is fake and only to be used for demonstration purposes.
+
+Bee Travels is comprised of the following microservices:
+* [UI Frontend](https://github.com/bee-travels/bee-travels-node/tree/master/services/ui/frontend)
+* UI Backend
+* Destination Service
+* Hotel Service 
+* Currency Exchange
+
+The following is a basic architecture diagram for the containerized version of Bee Travels.
+![img](../static/img/architecture-v1.png)
 
 ## Authors 
-- Mofi Rahaman 
+- Mofi Rahman 
 - Max Shapiro 
 - Nick Bourdakos 
 - Pooja Mistry 

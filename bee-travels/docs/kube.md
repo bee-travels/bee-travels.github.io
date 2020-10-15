@@ -1,5 +1,5 @@
 ---
 id: kube
-title: About Kubernetes
+title: Kubernetes
 ---
 Coming Soon 

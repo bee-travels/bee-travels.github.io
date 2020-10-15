@@ -1,6 +1,6 @@
 ---
 id: node
-title: Designing Microservices with Node.js
+title: Node.js
 ---
 
 When designing microservices in Node.js or any other language, [these](/docs/designing) recommendations should be considered.

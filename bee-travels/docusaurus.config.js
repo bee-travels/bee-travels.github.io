@@ -28,7 +28,7 @@ module.exports = {
         //   activeBaseRegex: `/workshop/`,
         // },
         {
-          position: 'left',
+          position: 'right',
           label: 'IBM Developer',
           href: 'https://developer.ibm.com/?s=microservices',
         },
@@ -85,6 +85,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
         },
+
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

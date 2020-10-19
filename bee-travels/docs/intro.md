@@ -30,7 +30,7 @@ Bee Travels is a travel booking application that is composed of several mircoser
 > **Note:** All data is fake and only to be used for demonstration purposes.
 
 Bee Travels is comprised of the following microservices:
-* [UI Frontend](https://github.com/bee-travels/bee-travels-node/tree/master/services/ui/frontend)
+* UI Frontend
 * UI Backend
 * Destination Service
 * Hotel Service 

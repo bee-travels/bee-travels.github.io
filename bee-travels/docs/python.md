@@ -1,5 +1,5 @@
 ---
 id: python
-title: Designing Microservices with Python
+title: Python
 ---
 Coming Soon 

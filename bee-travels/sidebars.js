@@ -5,11 +5,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Microservices',
-      items: [ 'about', 'designing',{
-        type: 'link',
-        label: 'OpenAPI Comment Parser', 
-        href: 'https://developer.ibm.com/technologies/api/blogs/document-apis-with-open-source-openapi-comment-parser/' 
-      }],
+      items: [ 'about', 'designing'],
     },
     {
       type: 'category',

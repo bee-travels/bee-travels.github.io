@@ -32,11 +32,16 @@ Bee Travels is a travel booking application that is composed of several mircoser
 Bee Travels is comprised of the following microservices:
 * UI Frontend
 * UI Backend
-* Destination Service
-* Hotel Service 
+* Destination
+* Hotel 
+* Car Rental
+* Flight
 * Currency Exchange
+* Checkout
+* Payment
+* Email
 
-The following is a basic architecture diagram for the containerized version of Bee Travels.
+The following is a basic architecture diagram for the containerized v1 version of Bee Travels.
 ![img](../static/img/architecture-v1.png)
 
 ## Authors 

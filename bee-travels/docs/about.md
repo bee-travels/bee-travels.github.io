@@ -51,12 +51,17 @@ Bee Travels is a travel booking application that is composed of several mircoser
 > **Note:** All data is fake and only to be used for demonstration purposes.
 
 Bee Travels is comprised of the following microservices:
-* [UI Frontend](https://github.com/bee-travels/bee-travels-node/tree/master/services/ui/frontend)
-* [UI Backend](https://github.com/bee-travels/bee-travels-node/tree/master/services/ui/backend)
-* Destination Service --> Dead Link
-* Hotel Service --> Dead Link
-* [Currency Exchange](https://github.com/bee-travels/bee-travels-node/tree/master/services/currency-exchange)
+* UI Frontend
+* UI Backend
+* Destination
+* Hotel 
+* Car Rental
+* Flight
+* Currency Exchange
+* Checkout
+* Payment
+* Email
 
-The following is a basic architecture diagram for the containerized version of Bee Travels.
+The following is a basic architecture diagram for the containerized v1 version of Bee Travels.
 
 ![img](../static/img/architecture-v1.png)

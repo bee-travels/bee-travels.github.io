@@ -77,6 +77,9 @@ module.exports = {
       ],
       
     },
+    gtag: {
+      trackingID: 'G-RTN16HE6HP',
+    },
   },
   presets: [
     [
@@ -102,6 +105,9 @@ module.exports = {
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
       },
+    ],
+    [
+      '@docusaurus/plugin-google-gtag',{}
     ],
   ]
 };

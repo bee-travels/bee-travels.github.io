@@ -107,7 +107,10 @@ module.exports = {
       },
     ],
     [
-      '@docusaurus/plugin-google-gtag',{}
+      '@docusaurus/plugin-google-gtag',
+      {
+        id: 'gtag'
+      }
     ],
   ]
 };

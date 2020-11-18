@@ -1,5 +1,5 @@
 module.exports = {
   workshop: [
-    'workshop'
+    'Workshop'
   ]
 };

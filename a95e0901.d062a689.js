@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{72:function(o){o.exports=JSON.parse('{"version":"current","label":"Next","isLast":true,"docsSidebars":{"workshop":[{"type":"link","label":"Code Gen Workshop","href":"/workshop/"}]},"permalinkToSidebar":{"/workshop/":"workshop"}}')}}]);

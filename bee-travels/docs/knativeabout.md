@@ -3,9 +3,6 @@ id: knativeabout
 title: Knative
 ---
 
+## External Content
 
-items: ['knativeabout',{
-          type: 'link',
-          label: 'Build a Knative Serverless web application', // The label that should be displayed (string).
-          href: 'https://developer.ibm.com/patterns/knative-serverless-web-application/' // The target URL (string).
-        }]
+* [Build a Knative Serverless web application](https://developer.ibm.com/patterns/knative-serverless-web-application)

@@ -29,10 +29,4 @@ Come join us each week to hear what the buzz is about Bee Travels and to learn m
 
  - Register or watch replay [here](https://www.crowdcast.io/e/beetravels_part5)
 
-### [Part 6: Data Handling in Microservices](https://www.crowdcast.io/e/beetravels_part6) 
-![img](../static/img/Part6.png)
-
- - Register or watch replay [here](https://www.crowdcast.io/e/beetravels_part6)
-
-
  
